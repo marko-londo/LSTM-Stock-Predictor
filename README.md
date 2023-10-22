@@ -40,4 +40,4 @@ The 1-day window emerged as the most effective for making predictions. Given Bit
 ![Closing Price
 Predictor](https://github.com/marko-londo/LSTM-Stock-Predictor/blob/main/Visualizations/closing.png?raw=true)
 #### FNG Predictor
-![FNG Predictor](https://github.com/marko-londo/LSTM-Stock-Predictor/blob/main/Visualizations/closing.png?raw=true)
+![FNG Predictor](https://github.com/marko-londo/LSTM-Stock-Predictor/blob/main/Visualizations/fng.png?raw=true)
