@@ -29,7 +29,7 @@ Despite the similarity in architecture, the Closing Price Predictor evidently de
 Visual comparisons between actual vs. predicted values were created:
 
 - The **Closing Price Predictor** exhibited exceptional alignment with the actual data, closely tracing its fluctuations.
-- The **FNG Predictor** managed to emulate the broader trend but didn't always precise values.
+- The **FNG Predictor** managed to emulate the broader trend but didn't predict precise values.
 
 #### Best Time Window
 
