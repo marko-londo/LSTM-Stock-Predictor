@@ -29,15 +29,15 @@ Despite the similarity in architecture, the Closing Price Predictor evidently de
 Visual comparisons between actual vs. predicted values were created:
 
 - The **Closing Price Predictor** exhibited exceptional alignment with the actual data, closely tracing its fluctuations.
-- The **FNG Predictor** managed to emulate the broader trend but didn't always pinpoint precise values.
+- The **FNG Predictor** managed to emulate the broader trend but didn't always precise values.
 
 #### Best Time Window
 
 The 1-day window emerged as the most effective for making predictions. Given Bitcoin's notorious volatility and the plethora of daily influences, a short window allows the model to train on the freshest, most pertinent data.
 
 ### Visualizations
-
-To observe the visual depictions of each model's predictions, utilize the following code:
-
-```python
-# Replace this placeholder with your code to display images of each visualization.
+#### Closing Price Predictor
+![Closing Price
+Predictor]([images/closing_price_predictor.png](https://github.com/marko-londo/LSTM-Stock-Predictor/blob/main/Visualizations/closing.png?raw=true))
+#### FNG Predictor
+![FNG Predictor]([images/fng_predictor.png](https://github.com/marko-londo/LSTM-Stock-Predictor/blob/main/Visualizations/closing.png?raw=true))
