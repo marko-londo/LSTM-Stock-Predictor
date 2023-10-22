@@ -1,6 +1,6 @@
 # Bitcoin Price Prediction with Deep Learning
 
-This repository presents two distinct recurrent neural network models to predict Bitcoin's closing prices using LSTM (Long Short Term Memory) cells.
+This repository presents a deep learning recurrent neural network model to predict Bitcoin's closing prices using LSTM (Long Short Term Memory) cells.
 
 ## Overview
 
