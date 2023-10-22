@@ -1,43 +1,43 @@
 # Bitcoin Price Prediction with Deep Learning
 
-This repository presents a deep learning recurrent neural network model to predict Bitcoin's closing prices using LSTM (Long Short Term Memory) cells.
+In this repository, I leverage recurrent neural networks using LSTM (Long Short Term Memory) cells to predict Bitcoin's closing prices. The exact same model architecture and random seed have been employed across two distinct notebooks, ensuring consistency in the modeling approach.
 
 ## Overview
 
-1. **Closing Price Predictor**: This model employs a window of past closing prices to predict the `nth` closing price. For instance, if a window of 10 days is used, the model would take the closing prices of the previous 10 days to predict the 11th day's closing price.
-2. **FNG Predictor**: This model utilizes the Fear and Greed (FNG) indicators to make its predictions about the closing price.
+1. **Notebook 1 - Closing Price Predictor**: This notebook focuses on using a window of past closing prices to predict the `nth` closing price.
+2. **Notebook 2 - FNG Predictor**: The emphasis of this notebook is on employing the Fear and Greed (FNG) indicators as features to predict the closing price.
 
 ### Data Preparation
 
-The dataset has been prepared, split, and normalized for training and testing. Appropriate data preprocessing steps ensure that the models receive the data in a format conducive to training.
+Both notebooks follow an identical process where the dataset is prepared, split, and normalized for training and testing. Such preprocessing ensures a consistent input format for our LSTM RNN model.
 
 ### Model Construction and Training
 
-Custom LSTM RNN models were built and trained to accommodate the specific nuances of Bitcoin's price movements.
+The same custom LSTM RNN model was replicated across both notebooks for training on different sets of features.
 
 ### Evaluation
 
-Both models underwent thorough evaluation to compare their performance:
+A comparison of performance between the two models revealed:
 
 - **Closing Price Predictor**: Achieved a loss of `0.013043398037552834`.
-- **FNG Predictor**: Noted a loss of `0.13850949704647064`.
+- **FNG Predictor**: Posted a loss of `0.13850949704647064`.
 
-Clearly, the Closing Price Predictor outperformed the FNG Predictor in terms of accuracy.
+Despite the similarity in architecture, the Closing Price Predictor evidently delivered superior results compared to the FNG Predictor.
 
 ### Visualization
 
-Visual comparisons between actual vs. predicted values were drawn for both models:
+Visual comparisons between actual vs. predicted values were created:
 
-- The **Closing Price Predictor** showcased an impressive performance, with its predictions closely mirroring the actual data.
-- The **FNG Predictor**, on the other hand, managed to capture the overall trend decently but fell short of pinpointing the exact values.
+- The **Closing Price Predictor** exhibited exceptional alignment with the actual data, closely tracing its fluctuations.
+- The **FNG Predictor** managed to emulate the broader trend but didn't always pinpoint precise values.
 
 #### Best Time Window
 
-The most effective time window for making predictions was found to be 1 day. This makes intuitive sense since cryptocurrency markets, especially Bitcoin, are highly volatile and are influenced by a multitude of factors on a day-to-day basis. Using a short window ensures that the model is trained on the most recent and relevant data.
+The 1-day window emerged as the most effective for making predictions. Given Bitcoin's notorious volatility and the plethora of daily influences, a short window allows the model to train on the freshest, most pertinent data.
 
 ### Visualizations
 
-To view the visualizations of each model's performance, use the following code:
+To observe the visual depictions of each model's predictions, utilize the following code:
 
 ```python
 # Replace this placeholder with your code to display images of each visualization.
